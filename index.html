@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LojaTech</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/produto.css">
 </head>
+
 <body>
     <header>
         <nav>
             <a href="index.html">Logo</a>
             <ul>
                 <li>
-                <form action="lista _produto.html">
-                    <input type="text" name="pesquisa" id="pesquisa">
-                    <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
-                </form>
+                    <form action="lista _produto.html">
+                        <input type="text" name="pesquisa" id="pesquisa">
+                        <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                    </form>
                 </li>
                 <li>
                     <a href="#">Categorias</a>
@@ -32,6 +36,19 @@
             </ul>
             <button id="hamburguer"><i class="fa fa-bars" aria-hidden="true"></i></button>
         </nav>
+        <!-- fecha nav-->
+        <section class="carrosel">
+            <div class="imagem-container">
+                <img src="img/carrossel.png" alt="LojaTech" width="800">
+                <div class="legenda">
+                    <i class="fa fa-shopping-cart fa-3x" aria-hidden="true"></i>
+                    <span>
+                        <h1>Bem vindo à LojaTech</h1>
+                        <p>Satisfação a cada click</p>
+                    </span>
+                </div>
+            </div>
+        </section>
     </header>
     <main>
         <div class="conteudo_central">
@@ -43,7 +60,8 @@
                     </div>
                     <!-- fecha .card-header-->
                     <div class="card-body">
-                        <a href="detalhes_produtos.html"><img src="img/celularA54.jfif" alt="Smartphone"></a>
+                        <a href="detalhes_produtos.html"><img src="img/celularA54.jfif" alt="Smartphone"
+                                width="200"></a>
                     </div>
                     <!-- fecha .card-body-->
                     <div class="card-footer">
@@ -63,14 +81,15 @@
                     <!-- fecha .card-footer-->
                 </div>
                 <!-- fecha .card-->
-                   <!-- Produto 2-->
-                   <div class="card">
+                <!-- Produto 2-->
+                <div class="card">
                     <div class="card-header">
                         Smartphone Samsung A54
                     </div>
                     <!-- fecha .card-header-->
                     <div class="card-body">
-                        <a href="detalhes_produtos.html"><img src="img/celularA54.jfif" alt="Smartphone"></a>
+                        <a href="detalhes_produtos.html"><img src="img/celularA54.jfif" alt="Smartphone"
+                                width="200"></a>
                     </div>
                     <!-- fecha .card-body-->
                     <div class="card-footer">
@@ -90,14 +109,15 @@
                     <!-- fecha .card-footer-->
                 </div>
                 <!-- fecha .card-->
-                   <!-- Produto 3-->
-                   <div class="card">
+                <!-- Produto 3-->
+                <div class="card">
                     <div class="card-header">
                         Smartphone Samsung A54
                     </div>
                     <!-- fecha .card-header-->
                     <div class="card-body">
-                        <a href="detalhes_produtos.html"><img src="img/celularA54.jfif" alt="Smartphone"></a>
+                        <a href="detalhes_produtos.html"><img src="img/celularA54.jfif" alt="Smartphone"
+                                width="200"></a>
                     </div>
                     <!-- fecha .card-body-->
                     <div class="card-footer">
@@ -119,8 +139,11 @@
                 <!-- fecha .card-->
             </section>
             <!-- fecha section #produtos-->
+            <div class="btn_listar">
+                <a href="lista_produtos.html"> Listar Produtos</a>
+            </div>
         </div>
-         <!-- fecha .conteudo_central -->
+        <!-- fecha .conteudo_central -->
     </main>
     <footer>
         <h1><i class="fa fa-shopping-cart" aria-hidden="true"></i>LojaTech</h1>
@@ -155,4 +178,5 @@
     </footer>
     <script src="js/menu.js"></script>
 </body>
+
 </html>
